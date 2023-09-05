@@ -2,9 +2,6 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler, RobustScaler, No
 import pandas as pd
 import numpy as np
 
-from logger import get_logger_regression
-logger = get_logger_regression('Normalise_Engine')
-
 class Normalise_Engine():
     '''
         Normalise_Engine Creates a stored instance of the Standardising method from Sklearn (Consistent instance)
